@@ -87,28 +87,47 @@
                     <div class="benefit_list">
                         <p class="save_point"><em>1,679P</em> 적립 (WELCOME 0.1% 적립)</p>
                         <a href="#" class="monthly_installment_plan">월 279,833원 (6개월) 무이자 할부 <img src="https://cdn-icons-png.flaticon.com/128/2985/2985179.png" alt=""></a>
+                        <!-- (위) 무이자 할부 a 클릭 시 실행되는 영역 -->
+                        <div class="interest_free_installmaent_open">
+                            <h3>무이자 할부</h3>\
+                            <p>...</p>
+                        </div><!-- e:interest_free_installmaent_open -->
                     </div><!-- e:benefit_list -->
                 </div><!-- e:benefit -->
                 <!-- 배송 -->
                 <div class="delivery">
                     <h2>배송</h2>
-                    <div class="delivery_info">
+                    <div class="delivery_list">
+                        <!-- 인라인, 블록 둘 다 가능 -->
+                        <!-- 인라인일 경우 -->
+                        <!-- <em>무료배송</em> -->
+                        <!-- <span>16:00까지</span> -->
+                        <!-- <a href="#"><img src="" alt"오늘 출발 정보 보기"></a> -->
                         <p class="kind"><em>무료배송</em></p>
-                        <p class="time">16:00 까지 결제 시 <em>오늘 출발</em><img src="https://cdn-icons-png.flaticon.com/128/10613/10613643.png" alt="배송 상세 안내"></p>
+                        <p class="time">16:00 까지 결제 시 <em>오늘 출발</em>
+                            <a href="#" class="today_info"><img src="https://cdn-icons-png.flaticon.com/128/10613/10613643.png" alt="배송 상세 안내"></a>
+                        </p>
+                        <!-- (위) a 클릭 시 실행되는 오늘 출발 정보 -->
+                        <p class="today_info_open"><em>판매자...</em></p><!-- 인라인으로 쓰이면 span으로 묶기 -->
                         <p class="parcel_service"><em>일반택배</em></p>
                         <p class="additional_price">제주도/도서산간 지역 8,000원</p>
-                    </div><!-- e:delivery_info -->
+                    </div><!-- e:delivery_list -->
                 </div><!-- e:delivery -->
                 <!-- 브랜드 -->
                 <div class="brand_info">
-                    <a href="#" class="brand_name">
-                        <img src="" alt="">
-                        <span class="brand_kind">
-                            <span><em>LG전자</em><img src="https://cdn-icons-png.flaticon.com/128/2985/2985179.png" alt=""></span>
+                    <a href="#" class="brand_link"><!-- 브랜드 바로가기 -->
+                        <img src="" alt="LG">
+                        <span class="brand_name">
+                            <span class="brand">
+                                <em>LG전자</em>
+                                <img src="https://cdn-icons-png.flaticon.com/128/2985/2985179.png" alt="">
+                            </span><!-- e:brand -->
                             <span>브랜드</span>
-                        </span><!-- e:brand_kind -->
-                    </a><!-- e:brand_name -->
-                    <a href="#" class="brand_bookmark"><img src="https://cdn-icons-png.flaticon.com/128/5662/5662990.png" alt="관심 브랜드 등록"></a>
+                        </span><!-- e:brand_name -->
+                    </a><!-- e:brand_link -->
+                    <a href="#" class="brand_bookmark"><!-- 관심 브랜드 등록 -->
+                        <img src="https://cdn-icons-png.flaticon.com/128/5662/5662990.png" alt="관심 브랜드 등록">
+                    </a><!-- e:brand_bookmark -->
                 </div><!-- e:brand_info -->
             </div><!-- e:detail -->
         </div><!-- e:contents -->
